@@ -1,0 +1,51 @@
+// Reset Defaults
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.txt {
+  &-light {
+    font-weight: 100;
+  }
+
+  &-normal {
+    font-weight: 300;
+  }
+
+  &-bold {
+    font-weight: 600;
+  }
+
+  &-italic {
+    font-style: italic;
+  }
+
+  &-underline {
+    text-decoration: underline;
+  }
+
+  @include colors(color);
+}

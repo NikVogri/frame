@@ -1,0 +1,24 @@
+@mixin flashDefaults($color) {
+  background: var($color);
+  opacity: 0.85;
+  color: var(--bright);
+  font-weight: 100;
+}
+
+.flash {
+  padding: 15px;
+  margin: 10px 0;
+
+  &-success {
+    @include flashDefaults(--success)
+  }
+
+  &-error {
+    @include flashDefaults(--error)
+  }
+
+  &-warning {
+    @include flashDefaults(--warning);
+    color: var(--dark);
+  }
+}

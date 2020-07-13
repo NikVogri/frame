@@ -1,0 +1,35 @@
+//////
+// Import fonts here
+//////
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//////
+// Change font here
+//////
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+//////
+// Add or remove components
+//////
+
+@import "./helpers/variables";
+@import "./mixin.scss";
+@import "./helpers/coloring.scss";
+@import "./text.scss";
+@import "./button.scss";
+@import "./container.scss";
+@import "./helpers/margin.scss";
+@import "./helpers/random.scss";
+@import "./helpers/padding.scss";
+@import "./helpers/size.scss";
+@import "./helpers/flexbox.scss";
+@import "./list.scss";
+@import "./helpers/flash";

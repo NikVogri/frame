@@ -1,0 +1,25 @@
+@mixin colors($type) {
+  &-primary {
+    #{$type}: var(--primary);
+  }
+
+  &-error {
+    #{$type}: var(--error);
+  }
+
+  &-success {
+    #{$type}: var(--success);
+  }
+
+  &-warning {
+    #{$type}: var(--warning);
+  }
+
+  &-bright {
+    #{$type}: var(--bright);
+  }
+
+  &-dark {
+    #{$type}: var(--dark);
+  }
+}

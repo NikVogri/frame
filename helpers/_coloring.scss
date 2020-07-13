@@ -1,0 +1,25 @@
+.bg {
+  &-primary {
+    background: var(--primary);
+  }
+
+  &-error {
+    background: var(--error);
+  }
+
+  &-success {
+    background: var(--success);
+  }
+
+  &-warning {
+    background: var(--warning);
+  }
+
+  &-dark {
+    background: var(--dark);
+  }
+
+  &-bright {
+    background: var(--bright);
+  }
+}

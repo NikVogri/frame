@@ -1,0 +1,30 @@
+.list {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  border: solid 1px var(--border);
+  border-radius: 5px;
+  padding: 0;
+
+  &-head {
+    background: var(--border);
+
+    @include colors(background-color);
+
+  }
+
+  & li {
+    padding: 10px 30px;
+    cursor: pointer;
+
+    &.active {
+      background-color: var(--primary);
+      color: var(--bright);
+    }
+
+    &:not(:last-child) {
+      border-bottom: solid 1px var(--border);
+    }
+  }
+
+}
