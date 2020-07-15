@@ -7,36 +7,42 @@
     <title>Document</title>
   </head>
   <body class="container">
-    <h1 class="mar-y-30">Frame sandbox</h1>
+    <h1 class="my-30">Frame sandbox</h1>
     <hr />
-    <section class="mar-bottom-30">
+    <section class="mb-30">
       <h2>Button styles</h2>
-      <h3>Large Buttons (button button-{color} button-large)</h3>
+      <code>button button-{color} button-{size[small, large]}</code>
+      <h3>Large Buttons</h3>
       <a href="#" class="button button-primary button-large">Primary</a>
       <a href="#" class="button button-error button-large">Error</a>
       <a href="#" class="button button-success button-large">Success</a>
       <a href="#" class="button button-warning button-large">Warning</a>
 
-      <h3>Medium Buttons - set by default (button button-{color})</h3>
+      <h3>Medium Buttons</h3>
       <a href="#" class="button button-primary">Primary</a>
       <a href="#" class="button button-error">Error</a>
       <a href="#" class="button button-success">Success</a>
       <a href="#" class="button button-warning">Warning</a>
 
-      <h3>Small Buttons (button button-{color} button-small)</h3>
+      <h3>Small Buttons</h3>
       <a href="#" class="button button-primary button-small">Primary</a>
       <a href="#" class="button button-error button-small">Error</a>
       <a href="#" class="button button-success button-small">Success</a>
       <a href="#" class="button button-warning button-small">Warning</a>
 
       <h3>Border radius (button button-{color} button-{size} button-radius)</h3>
-      <a href="#" class="button button-primary button-radius button-large">Primary</a>
+      <a href="#" class="button button-primary button-radius button-large"
+        >Primary</a
+      >
       <a href="#" class="button button-error button-radius">Error</a>
-      <a href="#" class="button button-success button-radius button-small">Success</a>
+      <a href="#" class="button button-success button-radius button-small"
+        >Success</a
+      >
     </section>
     <hr />
-    <section class="mar-bottom-30">
+    <section class="mb-30">
       <h2>Text styles</h2>
+      <code>txt-{type}</code>
       <h3>By default margin is applied to p and heading elements</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis
@@ -48,148 +54,184 @@
         enim molestiae quas a cupiditate. Beatae consequatur deleniti quia nobis
         saepe enim nesciunt molestias necessitatibus!
       </p>
-      <h3>Bold (txt-bold)</h3>
+      <h3>Bold</h3>
       <p class="txt-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis
         enim molestiae quas a cupiditate. Beatae consequatur deleniti quia nobis
         saepe enim nesciunt molestias necessitatibus!
       </p>
-      <h3>Light  (txt-light)</h3>
+      <h3>Light</h3>
       <p class="txt-light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis
         enim molestiae quas a cupiditate. Beatae consequatur deleniti quia nobis
         saepe enim nesciunt molestias necessitatibus!
       </p>
-      <h3>Italic  (txt-italic)</h3>
+      <h3>Italic</h3>
       <p class="txt-italic">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reiciendis
         enim molestiae quas a cupiditate. Beatae consequatur deleniti quia nobis
         saepe enim nesciunt molestias necessitatibus!
       </p>
     </section>
-    <section class="mar-bottom-30">
-      <h2>Helpers (width-{25, 50, 75 or 100})</h2>
+    <section class="mb-30">
+      <h2>Set element width</h2>
+      <code>width-{percentage[25, 50, 75, 100]}</code>
       <div class="txt-bright">
-        <div class="bg-error width-25 pad-left-20 mar-bottom-20">
+        <div class="bg-error width-25 pl-20 mb-20">
           25%
         </div>
-        <div class="bg-error width-50 pad-left-20 mar-bottom-20">
+        <div class="bg-error width-50 pl-20 mb-20">
           50%
         </div>
-        <div class="bg-error width-75 pad-left-20 mar-bottom-20">
+        <div class="bg-error width-75 pl-20 mb-20">
           75%
         </div>
-        <div class="bg-error width-100 pad-left-20 mar-bottom-20">
+        <div class="bg-error width-100 pl-20 mb-20">
           100%
         </div>
       </div>
     </section>
-    <section class="mar-bottom-30">
-      <h2>Flexbox (flex)</h2>
+    <section class="mb-30">
+      <h2>Flexbox</h2>
+      <code>flex</code>
+      <code>justify-content-{position}</code>
       <div class="txt-bright txt-bold">
         <div class="flex justify-content-between">
           <div class="bg-primary width-25">Between</div>
           <div class="bg-primary width-25">Between</div>
         </div>
-        <div class="flex justify-content-around mar-top-20">
+        <div class="flex justify-content-around mt-20">
           <div class="bg-primary width-25">Around</div>
           <div class="bg-primary width-25">Around</div>
         </div>
-        <div class="flex justify-content-end mar-top-20">
+        <div class="flex justify-content-end mt-20">
           <div class="bg-primary width-25">End</div>
           <div class="bg-primary width-25">End</div>
         </div>
-        <div class="flex justify-content-start mar-top-20">
+        <div class="flex justify-content-start mt-20">
           <div class="bg-primary width-25">Start</div>
           <div class="bg-primary width-25">Start</div>
         </div>
       </div>
       <h3>
-        Simply center an element inside parent with two classes (flex flex-center)
+        Center element inside parent
       </h3>
+      <p>Simply center an element inside parent with two classes</p>
+      <code class="mb">flex flex-center</code>
       <div
         class="flex flex-center txt-bright bg-success"
         style="height: 250px; width: 250px;"
       >
         <span>I am centered</span>
       </div>
-      <h3>Wrap on overflow (flex flex-wrap)</h3>
+      <h3>Wrap on overflow</h3>
+      <p>Use wrap when you want boxes to wrap around to new line</p>
+      <code>flex flex-wrap</code>
       <div class="flex flex-wrap">
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
         <div
-          class="bg-success mar-5"
+          class="bg-success m-5"
           style="height: 100px; min-width: 100px;"
         ></div>
       </div>
     </section>
-    <section class="mar-bottom-30">
+    <section class="mb-30">
       <h2>List styles (list)</h2>
-      <ul class="list ">
-        <li class="list-head list-head-warning">Item 1 (list-head list-head-{color})</li>
+      <code>list</code>
+      <code class="inline-block">list-head list-head-{color}</code>
+      <code>li: active</code>
+      <ul class="list">
+        <li class="list-head list-head-warning">
+          List head
+        </li>
         <li>List item with longer text</li>
         <li class="active">Item 3</li>
         <li>Item 4</li>
         <li>Item 5</li>
       </ul>
-
-      <ol class="list">
+      <ul class="list block">
+        <li class="list-head list-head-error txt-bright">Block</li>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
         <li>Item 4</li>
-        <li>Item 5</il>
-      </ol>
-
-      <ul class="list">
-        <li class="list-head list-head-error txt-bright">Hoverable list</li>
-        <li>Hover me</li>
-        <li>Hover me</li>
-        <li>Hover me</li>
-        <li>Hover me</li>
       </ul>
+      <code>list</code>
+      <code>block</code>
     </section>
-     <section class="mar-bottom-30">
+    <section class="mb-30">
       <h2>Flash messages</h2>
+      <p>Flash a message to the user.</p>
+      <code>flash flash-{color}</code>
+
       <div class="flash flash-success">
         You have successfully logged in!
       </div>
-       <div class="flash flash-error">
+      <div class="flash flash-error">
         Wrong email or password!
       </div>
-       <div class="flash flash-warning">
+      <div class="flash flash-warning">
         There was an error on our side!
       </div>
+    </section>
+
+    <section class="mb-30">
+      <h2>Forms</h2>
+      <p>Forms always take full width of parent element.</p>
+      <form class="form">
+        <label for="name">Input</label>
+        <input id="name" placeholder="I am a placeholder" type="text" />
+        <label for="textarea">Textarea</label>
+        <textarea name="textarea" id="" rows="10"></textarea>
+        <label for="select">
+          <label for="select">Select</label>
+          <select name="select" id="#">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <label for="multi-select">Multi Select</label>
+          <select name="multi-select" id="#" multiple>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </label>
+        <button type="submit" class="button button-error button-radius">
+          Submit
+        </button>
+      </form>
     </section>
   </body>
 </html>

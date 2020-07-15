@@ -53,11 +53,11 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 15px;
-  margin-top: 15px; }
+  margin-bottom: 5px;
+  margin-top: 5px; }
 
 p {
-  margin-top: 20px; }
+  margin-top: 10px; }
 
 .txt-light {
   font-weight: 100; }
@@ -136,112 +136,124 @@ p {
     .container {
       width: 90%; } }
 
-.mar {
+.m-none {
+  margin: none; }
+
+.m {
   margin: 10px; }
-  .mar-5 {
+  .m-5 {
     margin: 5px; }
-  .mar-20 {
+  .m-20 {
     margin: 20px; }
-  .mar-30 {
+  .m-30 {
     margin: 30px; }
-  .mar-40 {
+  .m-40 {
     margin: 40px; }
-  .mar-50 {
+  .m-50 {
     margin: 50px; }
 
-.mar-left {
+.ml {
   margin-left: 10px; }
-  .mar-left-5 {
+  .ml-5 {
     margin-left: 5px; }
-  .mar-left-20 {
+  .ml-20 {
     margin-left: 20px; }
-  .mar-left-30 {
+  .ml-30 {
     margin-left: 30px; }
-  .mar-left-40 {
+  .ml-40 {
     margin-left: 40px; }
-  .mar-left-50 {
+  .ml-50 {
     margin-left: 50px; }
 
-.mar-right {
+.mr {
   margin-right: 10px; }
-  .mar-right-5 {
+  .mr-5 {
     margin-right: 5px; }
-  .mar-right-20 {
+  .mr-20 {
     margin-right: 20px; }
-  .mar-right-30 {
+  .mr-30 {
     margin-right: 30px; }
-  .mar-right-40 {
+  .mr-40 {
     margin-right: 40px; }
-  .mar-right-50 {
+  .mr-50 {
     margin-right: 50px; }
 
-.mar-top {
+.mt {
   margin-top: 10px; }
-  .mar-top-5 {
+  .mt-5 {
     margin-top: 5px; }
-  .mar-top-20 {
+  .mt-20 {
     margin-top: 20px; }
-  .mar-top-30 {
+  .mt-30 {
     margin-top: 30px; }
-  .mar-top-40 {
+  .mt-40 {
     margin-top: 40px; }
-  .mar-top-50 {
+  .mt-50 {
     margin-top: 50px; }
 
-.mar-bottom {
+.mb {
   margin-bottom: 10px; }
-  .mar-bottom-5 {
+  .mb-5 {
     margin-bottom: 5px; }
-  .mar-bottom-20 {
+  .mb-20 {
     margin-bottom: 20px; }
-  .mar-bottom-30 {
+  .mb-30 {
     margin-bottom: 30px; }
-  .mar-bottom-40 {
+  .mb-40 {
     margin-bottom: 40px; }
-  .mar-bottom-50 {
+  .mb-50 {
     margin-bottom: 50px; }
 
-.mar-x {
+.m-x {
   margin-left: 10px;
   margin-right: 10px; }
-  .mar-x-5 {
+  .m-x-5 {
     margin-left: 5px;
     margin-right: 5px; }
-  .mar-x-20 {
+  .m-x-20 {
     margin-left: 20px;
     margin-right: 20px; }
-  .mar-x-30 {
+  .m-x-30 {
     margin-left: 30px;
     margin-right: 30px; }
-  .mar-x-40 {
+  .m-x-40 {
     margin-left: 40px;
     margin-right: 40px; }
-  .mar-x-50 {
+  .m-x-50 {
     margin-left: 50px;
     margin-right: 50px; }
 
-.mar-y {
+.m-y {
   margin-top: 10px;
   margin-bottom: 10px; }
-  .mar-y-5 {
+  .m-y-5 {
     margin-top: 5px;
     margin-bottom: 5px; }
-  .mar-y-20 {
+  .m-y-20 {
     margin-top: 20px;
     margin-bottom: 20px; }
-  .mar-y-30 {
+  .m-y-30 {
     margin-top: 30px;
     margin-bottom: 30px; }
-  .mar-y-40 {
+  .m-y-40 {
     margin-top: 40px;
     margin-bottom: 40px; }
-  .mar-y-50 {
+  .m-y-50 {
     margin-top: 50px;
     margin-bottom: 50px; }
 
 hr {
   margin: 20px 0;
   width: 100%; }
+
+.block {
+  display: block !important; }
+
+.inline-block {
+  display: inline-block !important; }
+
+.inline {
+  display: inline !important; }
 
 .radius {
   border-radius: 10px; }
@@ -256,106 +268,117 @@ hr {
   .radius-round {
     border-radius: 50%; }
 
-.pad {
+code {
+  font-style: italic;
+  margin: 5px;
+  background: #ececec;
+  font-weight: 400;
+  display: inline-block;
+  padding: 4px; }
+
+.p {
+  padding: none; }
+
+.p {
   padding: 10px; }
-  .pad-5 {
+  .p-5 {
     padding: 5px; }
-  .pad-20 {
+  .p-20 {
     padding: 20px; }
-  .pad-30 {
+  .p-30 {
     padding: 30px; }
-  .pad-40 {
+  .p-40 {
     padding: 40px; }
-  .pad-50 {
+  .p-50 {
     padding: 50px; }
 
-.pad-left {
+.pl {
   padding-left: 10px; }
-  .pad-left-5 {
+  .pl-5 {
     padding-left: 5px; }
-  .pad-left-20 {
+  .pl-20 {
     padding-left: 20px; }
-  .pad-left-30 {
+  .pl-30 {
     padding-left: 30px; }
-  .pad-left-40 {
+  .pl-40 {
     padding-left: 40px; }
-  .pad-left-50 {
+  .pl-50 {
     padding-left: 50px; }
 
-.pad-right {
+.pr {
   padding-right: 10px; }
-  .pad-right-5 {
+  .pr-5 {
     padding-right: 5px; }
-  .pad-right-20 {
+  .pr-20 {
     padding-right: 20px; }
-  .pad-right-30 {
+  .pr-30 {
     padding-right: 30px; }
-  .pad-right-40 {
+  .pr-40 {
     padding-right: 40px; }
-  .pad-right-50 {
+  .pr-50 {
     padding-right: 50px; }
 
-.pad-top {
+.pt {
   padding-top: 10px; }
-  .pad-top-5 {
+  .pt-5 {
     padding-top: 5px; }
-  .pad-top-20 {
+  .pt-20 {
     padding-top: 20px; }
-  .pad-top-30 {
+  .pt-30 {
     padding-top: 30px; }
-  .pad-top-40 {
+  .pt-40 {
     padding-top: 40px; }
-  .pad-top-50 {
+  .pt-50 {
     padding-top: 50px; }
 
-.pad-bottom {
+.pb {
   padding-bottom: 10px; }
-  .pad-bottom-5 {
+  .pb-5 {
     padding-bottom: 5px; }
-  .pad-bottom-20 {
+  .pb-20 {
     padding-bottom: 20px; }
-  .pad-bottom-30 {
+  .pb-30 {
     padding-bottom: 30px; }
-  .pad-bottom-40 {
+  .pb-40 {
     padding-bottom: 40px; }
-  .pad-bottom-50 {
+  .pb-50 {
     padding-bottom: 50px; }
 
-.pad-x {
+.px {
   padding-left: 10px;
   padding-right: 10px; }
-  .pad-x-5 {
+  .px-5 {
     padding-left: 5px;
     padding-right: 5px; }
-  .pad-x-20 {
+  .px-20 {
     padding-left: 20px;
     padding-right: 20px; }
-  .pad-x-30 {
+  .px-30 {
     padding-left: 30px;
     padding-right: 30px; }
-  .pad-x-40 {
+  .px-40 {
     padding-left: 40px;
     padding-right: 40px; }
-  .pad-x-50 {
+  .px-50 {
     padding-left: 50px;
     padding-right: 50px; }
 
-.pad-y {
+.py {
   padding-top: 10px;
   padding-bottom: 10px; }
-  .pad-y-5 {
+  .py-5 {
     padding-top: 5px;
     padding-bottom: 5px; }
-  .pad-y-20 {
+  .py-20 {
     padding-top: 20px;
     padding-bottom: 20px; }
-  .pad-y-30 {
+  .py-30 {
     padding-top: 30px;
     padding-bottom: 30px; }
-  .pad-y-40 {
+  .py-40 {
     padding-top: 40px;
     padding-bottom: 40px; }
-  .pad-y-50 {
+  .py-50 {
     padding-top: 50px;
     padding-bottom: 50px; }
 
@@ -442,15 +465,43 @@ hr {
     background: var(--success);
     opacity: 0.85;
     color: var(--bright);
-    font-weight: 100; }
+    font-weight: 300; }
   .flash-error {
     background: var(--error);
     opacity: 0.85;
     color: var(--bright);
-    font-weight: 100; }
+    font-weight: 300; }
   .flash-warning {
     background: var(--warning);
     opacity: 0.85;
     color: var(--bright);
-    font-weight: 100;
+    font-weight: 300;
     color: var(--dark); }
+
+.form {
+  display: block;
+  width: 100%;
+  margin-top: 10px; }
+  .form label {
+    display: block;
+    font-weight: 400; }
+  .form input,
+  .form textarea,
+  .form select,
+  .form option {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 8px;
+    letter-spacing: 0;
+    margin-top: 3px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-family: "Open Sans", sans-serif;
+    border: solid 1px var(--border);
+    color: var(--secondary);
+    font-weight: 400; }
+  .form input:focus,
+  .form textarea:focus,
+  .form select:focus,
+  .form option:focus {
+    border: solid 2px orangered; }

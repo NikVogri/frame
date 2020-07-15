@@ -1,4 +1,8 @@
-.mar {
+.m-none {
+  margin: none;
+}
+
+.m {
   margin: 10px;
 
   &-5 {
@@ -22,7 +26,7 @@
   }
 }
 
-.mar-left {
+.ml {
   margin-left: 10px;
 
   &-5 {
@@ -46,7 +50,7 @@
   }
 }
 
-.mar-right {
+.mr {
   margin-right: 10px;
 
   &-5 {
@@ -70,7 +74,7 @@
   }
 }
 
-.mar-top {
+.mt {
   margin-top: 10px;
 
   &-5 {
@@ -94,7 +98,7 @@
   }
 }
 
-.mar-bottom {
+.mb {
   margin-bottom: 10px;
 
   &-5 {
@@ -118,7 +122,7 @@
   }
 }
 
-.mar-x {
+.m-x {
   margin-left: 10px;
   margin-right: 10px;
 
@@ -148,7 +152,7 @@
   }
 }
 
-.mar-y {
+.m-y {
   margin-top: 10px;
   margin-bottom: 10px;
 

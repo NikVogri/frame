@@ -1,4 +1,8 @@
-.pad {
+.p {
+  padding: none;
+}
+
+.p {
   padding: 10px;
 
   &-5 {
@@ -22,7 +26,7 @@
   }
 }
 
-.pad-left {
+.pl {
   padding-left: 10px;
 
   &-5 {
@@ -46,7 +50,7 @@
   }
 }
 
-.pad-right {
+.pr {
   padding-right: 10px;
 
   &-5 {
@@ -70,7 +74,7 @@
   }
 }
 
-.pad-top {
+.pt {
   padding-top: 10px;
 
   &-5 {
@@ -94,7 +98,7 @@
   }
 }
 
-.pad-bottom {
+.pb {
   padding-bottom: 10px;
 
   &-5 {
@@ -118,7 +122,7 @@
   }
 }
 
-.pad-x {
+.px {
   padding-left: 10px;
   padding-right: 10px;
 
@@ -148,7 +152,7 @@
   }
 }
 
-.pad-y {
+.py {
   padding-top: 10px;
   padding-bottom: 10px;
 
