@@ -21,6 +21,7 @@ body {
 //////
 
 @import "./helpers/variables";
+@import "./helpers/breakpoints";
 @import "./mixin.scss";
 @import "./helpers/coloring.scss";
 @import "./text.scss";
@@ -34,3 +35,5 @@ body {
 @import "./list.scss";
 @import "./helpers/flash";
 @import "./form.scss";
+@import"./grid.scss";
+@import"./helpers/images.scss";

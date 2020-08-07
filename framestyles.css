@@ -36,6 +36,24 @@ body {
 .bg-bright {
   background: var(--bright); }
 
+.txt-primary {
+  color: var(--primary); }
+
+.txt-error {
+  color: var(--error); }
+
+.txt-success {
+  color: var(--success); }
+
+.txt-warning {
+  color: var(--warning); }
+
+.txt-dark {
+  color: var(--dark); }
+
+.txt-bright {
+  color: var(--bright); }
+
 h1,
 h2,
 h3,
@@ -57,7 +75,7 @@ h6 {
   margin-top: 5px; }
 
 p {
-  margin-top: 10px; }
+  margin-bottom: 10px; }
 
 .txt-light {
   font-weight: 100; }
@@ -505,3 +523,238 @@ code {
   .form select:focus,
   .form option:focus {
     border: solid 2px orangered; }
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: column dense; }
+  .grid-col-1 {
+    grid-column: span 1; }
+    .grid-col-1-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-1-sm {
+          grid-column: span 1; } }
+    .grid-col-1-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-1-md {
+          grid-column: span 1; } }
+    .grid-col-1-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-1-lg {
+          grid-column: span 1; } }
+  .grid-col-2 {
+    grid-column: span 2; }
+    .grid-col-2-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-2-sm {
+          grid-column: span 2; } }
+    .grid-col-2-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-2-md {
+          grid-column: span 2; } }
+    .grid-col-2-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-2-lg {
+          grid-column: span 2; } }
+  .grid-col-3 {
+    grid-column: span 3; }
+    .grid-col-3-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-3-sm {
+          grid-column: span 3; } }
+    .grid-col-3-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-3-md {
+          grid-column: span 3; } }
+    .grid-col-3-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-3-lg {
+          grid-column: span 3; } }
+  .grid-col-4 {
+    grid-column: span 4; }
+    .grid-col-4-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-4-sm {
+          grid-column: span 4; } }
+    .grid-col-4-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-4-md {
+          grid-column: span 4; } }
+    .grid-col-4-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-4-lg {
+          grid-column: span 4; } }
+  .grid-col-5 {
+    grid-column: span 5; }
+    .grid-col-5-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-5-sm {
+          grid-column: span 5; } }
+    .grid-col-5-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-5-md {
+          grid-column: span 5; } }
+    .grid-col-5-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-5-lg {
+          grid-column: span 5; } }
+  .grid-col-6 {
+    grid-column: span 6; }
+    .grid-col-6-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-6-sm {
+          grid-column: span 6; } }
+    .grid-col-6-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-6-md {
+          grid-column: span 6; } }
+    .grid-col-6-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-6-lg {
+          grid-column: span 6; } }
+  .grid-col-7 {
+    grid-column: span 7; }
+    .grid-col-7-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-7-sm {
+          grid-column: span 7; } }
+    .grid-col-7-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-7-md {
+          grid-column: span 7; } }
+    .grid-col-7-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-7-lg {
+          grid-column: span 7; } }
+  .grid-col-8 {
+    grid-column: span 8; }
+    .grid-col-8-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-8-sm {
+          grid-column: span 8; } }
+    .grid-col-8-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-8-md {
+          grid-column: span 8; } }
+    .grid-col-8-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-8-lg {
+          grid-column: span 8; } }
+  .grid-col-9 {
+    grid-column: span 9; }
+    .grid-col-9-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-9-sm {
+          grid-column: span 9; } }
+    .grid-col-9-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-9-md {
+          grid-column: span 9; } }
+    .grid-col-9-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-9-lg {
+          grid-column: span 9; } }
+  .grid-col-10 {
+    grid-column: span 10; }
+    .grid-col-10-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-10-sm {
+          grid-column: span 10; } }
+    .grid-col-10-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-10-md {
+          grid-column: span 10; } }
+    .grid-col-10-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-10-lg {
+          grid-column: span 10; } }
+  .grid-col-11 {
+    grid-column: span 11; }
+    .grid-col-11-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-11-sm {
+          grid-column: span 11; } }
+    .grid-col-11-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-11-md {
+          grid-column: span 11; } }
+    .grid-col-11-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-11-lg {
+          grid-column: span 11; } }
+  .grid-col-12 {
+    grid-column: span 12; }
+    .grid-col-12-sm {
+      grid-column: span 12; }
+      @media only screen and (min-width: 767.98px) {
+        .grid-col-12-sm {
+          grid-column: span 12; } }
+    .grid-col-12-md {
+      grid-column: span 12; }
+      @media only screen and (min-width: 991.98px) {
+        .grid-col-12-md {
+          grid-column: span 12; } }
+    .grid-col-12-lg {
+      grid-column: span 12; }
+      @media only screen and (min-width: 1199.98px) {
+        .grid-col-12-lg {
+          grid-column: span 12; } }
+  .grid-col-fill {
+    grid-column: span -1; }
+  .grid-order-1 {
+    order: -1; }
+  .grid-order-2 {
+    order: 1; }
+  .grid-order-3 {
+    order: 2; }
+  .grid-order-4 {
+    order: 3; }
+
+.gap-10 {
+  gap: 10px; }
+
+.gap-20 {
+  gap: 20px; }
+
+.gap-30 {
+  gap: 30px; }
+
+.gap-40 {
+  gap: 40px; }
+
+.img-fluid {
+  width: 100%; }

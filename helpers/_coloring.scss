@@ -23,3 +23,29 @@
     background: var(--bright);
   }
 }
+
+.txt {
+  &-primary {
+    color: var(--primary);
+  }
+
+  &-error {
+    color: var(--error);
+  }
+
+  &-success {
+    color: var(--success);
+  }
+
+  &-warning {
+    color: var(--warning);
+  }
+
+  &-dark {
+    color: var(--dark);
+  }
+
+  &-bright {
+    color: var(--bright);
+  }
+}
